@@ -14,8 +14,8 @@ const numbers = [
 ]
 
 function newArray(array, num1, num2) {
-    let range = array.filter((index) => {
-        return index > num1 && index < num2;
+    let range = array.filter((numeri) => {
+        return numeri > num1 && numeri < num2;
     });
     return range
 }
